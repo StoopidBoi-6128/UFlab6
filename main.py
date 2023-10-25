@@ -1,3 +1,5 @@
+# Code by ETHAN CALBY
+
 def encode():
     password = [1, 2, 3, 4, 5]
     for char in range(len(password)):
