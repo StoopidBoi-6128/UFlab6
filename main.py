@@ -1,3 +1,5 @@
+#code by Ethan Calby
+
 print("Menu")
 print("-------------")
 print("1. Encode")
