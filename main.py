@@ -8,8 +8,8 @@ def encoder():
     encoded = ""
     for char in password:
         encoded += str(int(char) + 3)
-        print(password)
-        print(encoded)
+        # print(password)
+        # print(encoded)
     return encoded
 
 
@@ -17,7 +17,7 @@ def decoder(encoded):
     decoded = ""
     for char in encoded:
         decoded += str(int(char) - 3)
-    print("The encoded password is ", {encoded}, ", and the original password is ", {decoded}, ".")
+    print(f"The encoded password is {encoded}, and the original password is {decoded}.")
     return decoded
 
 
